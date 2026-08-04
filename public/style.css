@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.nav{
+    width: 100vw;
+    height: 10vh;
+}
+
+.box {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+
+.box img{
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+    padding-left: 55px;
+}
+
+.box ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box ul li:hover{
+    text-decoration: underline;
+}
+
+.hero{
+    height: 90vh;
+    width: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero img{
+    width: 100%;
+    object-fit: cover;
+    position: inherit;
+}
+
+.content h1{
+    color: brown;
+    z-index: 10;
+    position: absolute;
+    padding: 50px;
+}
